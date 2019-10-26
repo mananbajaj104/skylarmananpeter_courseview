@@ -1,9 +1,9 @@
 ﻿import React from 'react'
-import Toggle from './components/Toggle'
+import Toggle from './Toggle'
 
 const Banner = ({className}) => {
     return (
-        <div>}>
+        <div>
             <h1>{className}</h1>
              <Toggle />
         </div>

@@ -1,13 +1,37 @@
 ﻿import React from 'react'
-import Toggle from './components/Toggle'
+import Chart from './Chart'
 
-const Banner = ({className}) => {
+const Graphs = ({}) => {
+    
+
     return (
-        <div>}>
-            <h1>{className}</h1>
-             <Toggle />
+        <div>
+            <div>
+                <Chart
+                    input={"chart 1"}
+                />
+                <Chart
+                    input={"chart 2"}
+                />
+                    </div>
+            <div>
+                <Chart
+                    input={"chart 3"}
+                />
+                <Chart
+                    input={"chart 4"}
+                />
+            </div>
+            <div>
+                <Chart
+                    input={"chart 5"}
+                />
+                <Chart
+                    input={"chart 6"}
+                />
+            </div>
         </div>
     )
 }
 
-export default Banner;
+export default Graphs;

@@ -1,13 +1,13 @@
 ﻿import React from 'react'
-import Toggle from './components/Toggle'
+import Comment from './Comment'
 
-const Banner = ({className}) => {
-    return (
-        <div>}>
-            <h1>{className}</h1>
-             <Toggle />
+const Feedback = ({}) => {
+const textarray = ["text block uno", "text block dos", "text block tres"]
+return (
+        <div>
+            {textarray.map((x) => <Comment text={textarray[i]} />)}
         </div>
     )
 }
 
-export default Banner;
+export default Feedback; 

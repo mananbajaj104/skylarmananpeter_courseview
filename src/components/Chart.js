@@ -1,13 +1,11 @@
 ﻿import React from 'react'
-import Toggle from './components/Toggle'
 
-const Banner = ({className}) => {
+const Chart = ({input}) => {
     return (
-        <div>}>
-            <h1>{className}</h1>
-             <Toggle />
+        <div>
+            <h1>CHART: {input}</h1>
         </div>
     )
 }
 
-export default Banner;
+export default Chart;
