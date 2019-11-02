@@ -6,3 +6,10 @@ export const setColor = (color) => {
         color
     };
 }
+
+export const setInstructor = (instructor) => {
+    return {
+        type: "SET_INSTRUCTOR",
+        instructor 
+    };
+}
