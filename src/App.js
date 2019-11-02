@@ -1,16 +1,16 @@
 import './App.css'
 
 import React, {Component} from 'react'
-import TodoControls from './components/TodoControls'
-import CompleteTodoDisplay from './components/CompleteTodoDisplay';
-import IncompleteTodoDisplay from './components/IncompleteTodoDisplay';
+import Banner from './components/Banner'
+import Feedback from './components/Feedback';
+import Graphs from './components/Graphs';
 
 class App extends Component {
   render() {
     return <div className="App" style={{ display: "inline" }}>
-      <TodoControls />
-      <IncompleteTodoDisplay />
-      <CompleteTodoDisplay />
+      <Banner />
+      <Graphs />
+      <Feedback />
     </div>
   }
 }
