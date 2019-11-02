@@ -2,12 +2,13 @@
 import Comment from './Comment'
 
 const Feedback = ({}) => {
-const textarray = ["text block uno", "text block dos", "text block tres"]
+var textarray = ["text block uno", "text block dos", "text block tres"]
 return (
         <div>
-            {textarray.map((x) => <Comment text={textarray[i]} />)}
+            {textarray.map((x) => <Comment text={x} />)}
         </div>
     )
 }
 
 export default Feedback; 
+
